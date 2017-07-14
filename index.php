@@ -25,6 +25,8 @@ $bird1->canfly = true;
 $dog1->talk("Dog", "Woof woof mfcka");
 $bird1->run("bird", 100);
 
+show(Animal::$countOfAnimals);
+Animal::sayHi();
 if ($dog1 instanceof Dog) {
 	show($dog1->name . " is Dog");
 }
@@ -32,6 +34,8 @@ if ($dog1 instanceof Dog) {
 
 $animals = array($dog1, $fish1, $bird1);
 showa($animals);
+
+// homework car make model weight dateof manufacture an more 3      methods atleast 4  and subclasses sportscar, tanker, electric car
 
 
 

@@ -5,12 +5,14 @@ class Animal {
 	public $countOfLeges;
 	public $hasFurr;
 	public $food;
+	public static $countOfAnimals = 0;
 
 	public function __construct($name, $legs, $furr, $food) {
 		$this->name = $name;
 		$this->countOfLeges = $legs;
 		$this->hasFurr = $furr;
-		$this->food = $food;		
+		$this->food = $food;
+		Animal::$countOfAnimals++;		
 	}
 
 	public function running($name, $speed) {
@@ -28,7 +30,11 @@ class Animal {
 	public function sleep($name, $time) {
 		show("$name sleeps for a $time hours per day");
 	}
-	
+	public static function sayHi() {
+		show("Hi!");
+	}
+
+
 }
 
 class Dog extends Animal {

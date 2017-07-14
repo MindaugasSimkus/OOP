@@ -35,7 +35,7 @@ if ($dog1 instanceof Dog) {
 $animals = array($dog1, $fish1, $bird1);
 showa($animals);
 
-// homework car make model weight dateof manufacture an more 3      methods atleast 4  and subclasses sportscar, tanker, electric car
+// homework car make model weight dateof manufacture an more 3      methods atleast 4  and subclasses sportscar attribute time to 100kmph, tanker volume of the tank, electric car charge time, travel distance and to create 3 objects each of extended classes and put them into array and show on a display
 
 
 

@@ -22,7 +22,7 @@ class car {
 	}
 
 	public function maxSpeed() {	
-		show("$this->manufacturer $this->model can go at $this->topSpeed kmph.");
+		show("$this->manufacturer $this->model can go at $this->topSpeed kmph max.");
 	}
 
 
